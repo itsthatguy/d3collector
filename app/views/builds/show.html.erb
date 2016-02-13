@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @build.title %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @build.url %>
+</p>
+
+<p>
+  <strong>Klass:</strong>
+  <%= @build.klass %>
+</p>
+
+<%= link_to 'Edit', edit_build_path(@build) %> |
+<%= link_to 'Back', builds_path %>
